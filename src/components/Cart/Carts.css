@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap");
+.cart1 {
+    margin: 0 auto;
+}
+.all-cards {
+    display: flex;
+    flex-direction: column;
+}
+.main-card {
+    width: 900px;
+    height: 300px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 50px auto;
+    display: flex;
+}
+.img-card {
+    width: 300px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-card > img {
+    width: 250px;
+}
+.info-card {
+    width: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.h3,
+.opisanie {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.opisanie {
+    margin-top: 30px;
+}
+.h3 {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.btns-card {
+    width: 200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btns-shop {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    transition: 0.7s;
+}
+.btns-shop:hover {
+    background-color: rgb(199, 197, 197);
+    transition: 0.7s;
+}
+.inp-and-price {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.td {
+    width: 30px;
+}
+
+.totalPrice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn_cart {
+    width: 200px;
+    height: 50px;
+}
+
+.btn_cart:hover {
+    background-color: darkcyan;
+}
